@@ -1,0 +1,14 @@
+{
+  "passPerPreset": true,
+  "plugins": [
+    [
+      "relay", {
+        "schema": "server/schema/schema.graphql"
+      }
+    ]
+  ],
+  "presets": [
+    "react-native",
+    "react-native-stage-0/decorator-support"
+  ]
+}
